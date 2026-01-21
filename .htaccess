@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /Fund_Raising/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /Fund_Raising/index.php [L]
+</IfModule>
+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

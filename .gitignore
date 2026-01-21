@@ -1,7 +1,4 @@
 # WordPress core
-/wp-admin/
-/wp-includes/
-*.php
 readme.html
 license.txt
 xmlrpc.php
