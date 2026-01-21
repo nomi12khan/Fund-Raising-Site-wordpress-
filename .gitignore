@@ -1,0 +1,24 @@
+# WordPress core
+/wp-admin/
+/wp-includes/
+*.php
+readme.html
+license.txt
+xmlrpc.php
+
+# Config
+wp-config.php
+
+# Uploads & cache
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup/
+
+# Logs & env
+*.log
+.env
+
+# OS files
+.DS_Store
+
